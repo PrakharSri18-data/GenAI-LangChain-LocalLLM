@@ -1,7 +1,10 @@
 # vector_store.py
 # ----------------------------------------------
-# This module accepts a dynamic PDF file path, parse the PDFs & applies semantic chunking using the HuggingFace embeddings.
-# It then creates and returns a FAISS vector store for efficient retrieval.
+# THis module is responsible for turning rae documents into searchable math.
+# Loads a PDF document using LangChain's PyPDFLoader. 
+# Then applies advanced semantic chunking to maintain contextual integrity.
+# Converts those text chunks into numerical vectors using HuggingFace's sentence-transformers model.
+# Then creates a FAISS vector store for efficient retrieval.
 # ----------------------------------------------
 
 
@@ -38,7 +41,6 @@ def create_vector_store(file_path):
     )
 
     # Apply Advanced Semantic Chunking
-    # This keeps contextually related sentences together
     text_splitter = SemanticChunker(
         embeddings, 
         breakpoint_threshold_type="percentile"
