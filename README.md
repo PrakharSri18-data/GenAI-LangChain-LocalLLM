@@ -1,18 +1,23 @@
-GenAI-LangChain-LocalLLM
-🧠 Overview
-A robust, local Large Language Model (LLM) chatbot built using LangChain, Streamlit, and the Phi-3 model. This project enables users to interact with a lightweight generative AI model directly on their local machine, ensuring fast inference, complete data privacy, and zero reliance on external API keys or internet connectivity for query processing.
+# GenAI-LangChain-LocalLLM
 
-✨ Features
-100% Local Execution: Run generative AI entirely on your hardware. Keep your conversational data private and secure.
+> 🧠 A robust, local Large Language Model (LLM) chatbot built using LangChain, Streamlit, and the Phi-3 model.
 
-Phi-3 Integration: Leverages the highly efficient and capable Phi-3 model via Ollama, optimized for local environments without sacrificing conversational quality.
+This project enables users to interact with a lightweight generative AI model directly on their local machine, ensuring fast inference, complete data privacy, and zero reliance on external API keys or internet connectivity for query processing.
 
-LangChain Orchestration: Utilizes the LangChain framework to manage prompts, handle conversational memory, and structure the RAG (Retrieval-Augmented Generation) pipeline efficiently.
+---
 
-Interactive UI: Features a clean, responsive chatbot interface built with Streamlit, making it easy to interact with the model right out of the box.
+## ✨ Features
 
-📂 Repository Structure
-Plaintext
+- **100% Local Execution** — Run generative AI entirely on your hardware. Keep your conversational data private and secure.
+- **Phi-3 Integration** — Leverages the highly efficient and capable Phi-3 model via Ollama, optimized for local environments without sacrificing conversational quality.
+- **LangChain Orchestration** — Utilizes the LangChain framework to manage prompts, handle conversational memory, and structure the RAG (Retrieval-Augmented Generation) pipeline efficiently.
+- **Interactive UI** — Features a clean, responsive chatbot interface built with Streamlit, making it easy to interact with the model right out of the box.
+
+---
+
+## 📂 Repository Structure
+
+```
 GenAI-LangChain-LocalLLM/
 ├── Outputs/                 # Directory containing visual proof of model outputs and citations
 │   ├── Output 1/
@@ -35,54 +40,74 @@ GenAI-LangChain-LocalLLM/
 ├── LICENSE                  # MIT License
 ├── app.py                   # Main Streamlit application entry point
 └── requirements.txt         # List of all Python dependencies
+```
 
+---
 
-🚀 Getting Started
-Prerequisites
-Python 3.8+ installed on your machine.
+## 🚀 Getting Started
 
-A machine capable of running local LLMs (sufficient RAM/VRAM depending on the quantization of the Phi-3 model used).
+### Prerequisites
 
-Installation
-Clone the repository:
+- Python 3.8+ installed on your machine.
+- A machine capable of running local LLMs (sufficient RAM/VRAM depending on the quantization of the Phi-3 model used).
 
-Bash
+### Installation
+
+**1. Clone the repository:**
+
+```bash
 git clone https://github.com/PrakharSri18-data/GenAI-LangChain-LocalLLM.git
 cd GenAI-LangChain-LocalLLM
-Create a virtual environment (Recommended):
+```
 
-Bash
+**2. Create a virtual environment (Recommended):**
+
+```bash
 python -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
-Install the dependencies:
+```
 
-Bash
+**3. Install the dependencies:**
+
+```bash
 pip install -r requirements.txt
-Model Setup:
+```
 
-Ensure you have the local Phi-3 model initialized (e.g., via Ollama) and available to the scripts in the src/ directory.
+**4. Model Setup:**
 
-Running the Application
+Ensure you have the local Phi-3 model initialized (e.g., via Ollama) and available to the scripts in the `src/` directory.
+
+### Running the Application
+
 Launch the Streamlit interface by running the following command in your terminal:
 
-Bash
+```bash
 streamlit run app.py
-Navigate to http://localhost:8501 in your web browser to start chatting with your local AI!
+```
 
-🛠️ Tech Stack
-Language: Python
+Navigate to `http://localhost:8501` in your web browser to start chatting with your local AI!
 
-LLM Framework: LangChain
+---
 
-Generative Model: Phi-3
+## 🛠️ Tech Stack
 
-Vector Database: FAISS (or equivalent handled in vector_store.py)
+| Component | Technology |
+|-----------|------------|
+| Language | Python |
+| LLM Framework | LangChain |
+| Generative Model | Phi-3 |
+| Vector Database | FAISS (handled in `vector_store.py`) |
+| Frontend / UI | Streamlit |
 
-Frontend/UI: Streamlit
+---
 
-📄 License
-This project is licensed under the MIT License.
+## 📄 License
 
-🙋 Author
-Prakhar Srivastava 
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 🙋 Author
+
+**Prakhar Srivastava**  
 Data Scientist & Business Analyst | Machine Learning, Deep Learning & Generative AI
