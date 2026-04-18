@@ -1,5 +1,0 @@
-LangChain is a framework for building applications with large language models.
-
-Large language models can be used for chatbots, Q&A systems, and autonomous agents.
-
-Retrieval Augmented Generation combines vector search with LLM reasoning.
