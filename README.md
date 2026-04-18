@@ -103,11 +103,11 @@ Navigate to `http://localhost:8501` in your web browser to start chatting with y
 
 ## 📄 License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE) © 2026 Prakhar Srivastava.
 
 ---
 
 ## 🙋 Author
 
-**Prakhar Srivastava**  
-Data Scientist & Business Analyst | Machine Learning, Deep Learning & Generative AI
+**Prakhar Srivastava** 
+Data Analyst & AI Engineer | Machine Learning, Deep Learning, Generative AI, Prompt Engineering & Agentic AI
