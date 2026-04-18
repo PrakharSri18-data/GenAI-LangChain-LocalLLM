@@ -109,5 +109,6 @@ This project is licensed under the [MIT License](LICENSE) © 2026 Prakhar Srivas
 
 ## 🙋 Author
 
-**Prakhar Srivastava** 
+**Prakhar Srivastava**
+
 Data Analyst & AI Engineer | Machine Learning, Deep Learning, Generative AI, Prompt Engineering & Agentic AI
